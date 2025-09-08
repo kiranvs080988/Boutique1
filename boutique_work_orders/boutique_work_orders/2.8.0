@@ -1,0 +1,8 @@
+Looking in indexes: https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/simple
+Collecting python-dateutil
+  Using cached https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting six>=1.5 (from python-dateutil)
+  Using cached https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil
+
+Successfully installed python-dateutil-2.9.0.post0 six-1.17.0

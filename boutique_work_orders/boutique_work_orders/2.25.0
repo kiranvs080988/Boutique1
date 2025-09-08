@@ -1,0 +1,13 @@
+Looking in indexes: https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/simple
+Collecting requests
+  Downloading https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/1e/db/4254e3eabe8020b458f1a747140d32277ec7a271daf1d235b70dc0b4e6e3/requests-2.32.5-py3-none-any.whl (64 kB)
+Collecting charset_normalizer<4,>=2 (from requests)
+  Downloading https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/ce/d6/7e805c8e5c46ff9729c49950acc4ee0aeb55efb8b3a56687658ad10c3216/charset_normalizer-3.4.3-cp39-cp39-win_amd64.whl (107 kB)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\kvs\desktop\venv_boutique\lib\site-packages (from requests) (3.10)
+Collecting urllib3<3,>=1.21.1 (from requests)
+  Using cached https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/a7/c2/fe1e52489ae3122415c51f387e221dd0773709bad6c6cdaa599e8a2c5185/urllib3-2.5.0-py3-none-any.whl (129 kB)
+Collecting certifi>=2017.4.17 (from requests)
+  Using cached https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/e5/48/1549795ba7742c948d2ad169c1c8cdbae65bc450d6cd753d124b17c8cd32/certifi-2025.8.3-py3-none-any.whl (161 kB)
+Installing collected packages: urllib3, charset_normalizer, certifi, requests
+
+Successfully installed certifi-2025.8.3 charset_normalizer-3.4.3 requests-2.32.5 urllib3-2.5.0

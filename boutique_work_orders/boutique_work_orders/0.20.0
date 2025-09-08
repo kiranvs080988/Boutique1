@@ -1,0 +1,27 @@
+Looking in indexes: https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/simple
+Collecting uvicorn[standard]
+  Using cached https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/d2/e2/dc81b1bd1dcfe91735810265e9d26bc8ec5da45b4c0f6237e286819194c3/uvicorn-0.35.0-py3-none-any.whl (66 kB)
+Collecting click>=7.0 (from uvicorn[standard])
+  Downloading https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/7e/d4/7ebdbd03970677812aac39c869717059dbb71a4cfc033ca6e5221787892c/click-8.1.8-py3-none-any.whl (98 kB)
+Collecting h11>=0.8 (from uvicorn[standard])
+  Using cached https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl (37 kB)
+Requirement already satisfied: typing-extensions>=4.0 in c:\users\kvs\desktop\venv_boutique\lib\site-packages (from uvicorn[standard]) (4.15.0)
+Collecting colorama>=0.4 (from uvicorn[standard])
+  Using cached https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting httptools>=0.6.3 (from uvicorn[standard])
+  Downloading https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/05/72/2ddc2ae5f7ace986f7e68a326215b2e7c32e32fd40e6428fa8f1d8065c7e/httptools-0.6.4-cp39-cp39-win_amd64.whl (89 kB)
+Collecting python-dotenv>=0.13 (from uvicorn[standard])
+  Using cached https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/5f/ed/539768cf28c661b5b068d66d96a2f155c4971a5d55684a514c1a0e0dec2f/python_dotenv-1.1.1-py3-none-any.whl (20 kB)
+Collecting pyyaml>=5.1 (from uvicorn[standard])
+  Downloading https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/19/87/5124b1c1f2412bb95c59ec481eaf936cd32f0fe2a7b16b97b81c4c017a6a/PyYAML-6.0.2-cp39-cp39-win_amd64.whl (162 kB)
+Collecting watchfiles>=0.13 (from uvicorn[standard])
+  Downloading https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/88/bb/7d287fc2a762396b128a0fca2dbae29386e0a242b81d1046daf389641db3/watchfiles-1.1.0-cp39-cp39-win_amd64.whl (292 kB)
+Collecting websockets>=10.4 (from uvicorn[standard])
+  Downloading https://qct-artifactory.qualcomm.com/artifactory/api/pypi/tbs-nr-dev-pypi/packages/packages/75/8b/a32978a3ab42cebb2ebdd5b05df0696a09f4d436ce69def11893afa301f0/websockets-15.0.1-cp39-cp39-win_amd64.whl (176 kB)
+Requirement already satisfied: anyio>=3.0.0 in c:\users\kvs\desktop\venv_boutique\lib\site-packages (from watchfiles>=0.13->uvicorn[standard]) (4.10.0)
+Requirement already satisfied: exceptiongroup>=1.0.2 in c:\users\kvs\desktop\venv_boutique\lib\site-packages (from anyio>=3.0.0->watchfiles>=0.13->uvicorn[standard]) (1.3.0)
+Requirement already satisfied: idna>=2.8 in c:\users\kvs\desktop\venv_boutique\lib\site-packages (from anyio>=3.0.0->watchfiles>=0.13->uvicorn[standard]) (3.10)
+Requirement already satisfied: sniffio>=1.1 in c:\users\kvs\desktop\venv_boutique\lib\site-packages (from anyio>=3.0.0->watchfiles>=0.13->uvicorn[standard]) (1.3.1)
+Installing collected packages: websockets, pyyaml, python-dotenv, httptools, h11, colorama, click, watchfiles, uvicorn
+
+Successfully installed click-8.1.8 colorama-0.4.6 h11-0.16.0 httptools-0.6.4 python-dotenv-1.1.1 pyyaml-6.0.2 uvicorn-0.35.0 watchfiles-1.1.0 websockets-15.0.1
